@@ -25,20 +25,20 @@ This project implements a URL Shortener service that takes a long URL and genera
 1. **POST** `/shorten`
     - **Description**: Shorten a given destination URL.
     - **Request Body**: `{ "destinationUrl": "http://example.com" }`
-    - **Response**: `{ "shortUrl": "http://localhost:8080/abc123", "id": 1 }`
+    - **Response**: `{ "shortUrl": "http://localhost:8081/abc123", "id": 1 }`
     - **Success**: 200 OK
     - **Failure**: 400 Bad Request
 
 2. **POST** `/update`
     - **Description**: Update the destination URL for a given short URL.
-    - **Request Body**: `{ "shortUrl": "http://localhost:8080/abc123", "destinationUrl": "http://newexample.com" }`
+    - **Request Body**: `{ "shortUrl": "http://localhost:8081/abc123", "destinationUrl": "http://newexample.com" }`
     - **Response**: `{ "success": true }`
     - **Success**: 200 OK
     - **Failure**: 400 Bad Request
 
 3. **GET** `/get`
     - **Description**: Get the destination URL for a given short URL.
-    - **Request Params**: `shortUrl=http://localhost:8080/abc123`
+    - **Request Params**: `shortUrl=http://localhost:8081/abc123`
     - **Response**: `{ "destinationUrl": "http://example.com" }`
     - **Success**: 200 OK
     - **Failure**: 404 Not Found
