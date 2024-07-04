@@ -49,5 +49,9 @@ This project implements a URL Shortener service that takes a long URL and genera
     - **Response**: `{ "success": true }`
     - **Success**: 200 OK
     - **Failure**: 400 Bad Request
+5. **IMAGE** `Scrren-shot of postGreSQL`
+   ![Alt text](image/img.png)
+
+   
 
 
