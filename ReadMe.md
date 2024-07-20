@@ -1,7 +1,7 @@
 # Assignment 1 - URL Shortener
 
 ## Project Overview
-This project implements a URL Shortener service that takes a long URL and generates a shorter, unique alias. When the short link is accessed, the service redirects to the original URL. The application is designed to be highly available with minimal latency and ensure that the shortened links are not predictable. Links will expire after a default period of 10 months.
+This project implements a URL Shortener service that takes a long URL and generates a shorter, unique alias. When the short link is accessed, the service redirects to the original URL. The application is designed to be highly available with minimal latency and ensure that the shortened links are not predictable. Links will expire after a default period of 10 months
 
 ## Key Features
 - Shorten a long URL to a unique alias.
